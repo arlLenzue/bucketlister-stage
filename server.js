@@ -1,6 +1,6 @@
-var connect = require('connect'); // connect module
+var express = require('express'); 
 
-var app = connect();
+var app = express();
 
 var helloWorld = function(req, res, next){
 
